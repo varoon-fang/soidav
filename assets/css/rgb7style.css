@@ -33,11 +33,6 @@ body {
   background-color: #f0f0f0;
 }
 
-/* Code in headings */
-h3 code {
-  font-size: 14px;
-  font-weight: normal;
-}
 
 /* #Typography
 ================================================== */
@@ -107,6 +102,29 @@ body > .navbar {
 }
 
 
+
+body > .navbar .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: left;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+
+/* @group Header Group */
+.userUnLogin{
+	
+	margin-top: 20px;
+	background-color: maroon;
+}
+
+
+/* @end */
 
 /* @group NavBar Group */
 
@@ -597,10 +615,7 @@ body > .navbar {
 }
 
 
-.messageIcon{
-	
-	margin-top: 5px;
-}
+
 
 /* @group Default Group */
 
@@ -649,20 +664,6 @@ border-style: none;
 /* @end */
 
 /* @end */
-
-body > .navbar .brand {
-  padding-right: 0;
-  padding-left: 0;
-  margin-left: 20px;
-  float: left;
-  font-weight: bold;
-  color: #000;
-  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
-  -webkit-transition: all .2s linear;
-     -moz-transition: all .2s linear;
-          transition: all .2s linear;
-}
-
 
 /* @group Landingpage Group */
 
