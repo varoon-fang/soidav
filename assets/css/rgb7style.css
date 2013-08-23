@@ -822,8 +822,21 @@ padding: 1px;
 	color: #1d1d1d;
 }
 
-/* @end */
 
+
+/* @group leftTopVote Group */
+
+.leftTopVote{
+	text-align: center;
+	padding: 10px 5px;
+	background-color: red;
+}
+
+.lefttopVote ul li a img{
+
+}
+
+/* @end */
 /* @group rightHotVote Group */
 .rightHotVote{
 	text-align: center;
