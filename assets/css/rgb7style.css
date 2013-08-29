@@ -840,16 +840,42 @@ padding: 1px;
 	color: #1d1d1d;
 }
 
-/* @end */
 
+
+/* @group leftTopVote Group */
+
+.leftTopVote{
+	text-align: center;
+	padding: 10px 5px;
+	background-color: #b82c0f;
+}
+
+.leftTopVote h5{
+ color: white;
+}
+
+.leftTopVote form{
+	margin: 0;
+	padding: 0;
+}
+.addPonit{
+	padding: 0;
+	margin-left: 29px;
+	margin-bottom: 0;
+	margin-top: -23px;
+}
+
+/* @end */
 /* @group rightHotVote Group */
 .rightHotVote{
 	text-align: center;
 	padding-top: 10px;
-	background-color: #f9f9f9;
+	background-color: #ac3a7a;
 	padding-bottom: 10px;
 }
-
+.rightHotVote{
+	color: white;
+}
 
 .rightHotVote ul li{
 	margin-bottom: 10px;
