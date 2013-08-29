@@ -9,7 +9,12 @@
 
     <!-- Le styles -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/elastislide.css" />
+   <!-- <link rel="stylesheet" type="text/css" href="../assets/css/custom.css" />-->
+    <script src="../assets/js/modernizr.custom.17475.js"></script>
     <link href="../assets/css/rgb7style.css" rel="stylesheet">
+    
     <style>
       body {
         padding-top: 57px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -613,8 +618,10 @@
 								   <div class="span2 ">
 									              
 									         <section class="rightHotVote">
-									         
-												         <ul class="unstyled hotVote">
+									                       
+												         <!--<ul class="unstyled hotVote">-->
+												         
+												         <ul id="carousel" class="elastislide-list hotVote">
 												           
 												            <li><a href="#"><img src="../assets/img/placeimg_78_78_people.jpg" /></a></li> 
 												            <li><a href="#"><img src="../assets/img/placeimg_78_78_people.jpg" /></a></li>
@@ -631,8 +638,14 @@
 												            <li><a href="#"><img src="../assets/img/placeimg_78_78_people.jpg" /></a></li> 
 												            <li><a href="#"><img src="../assets/img/placeimg_78_78_people.jpg" /></a></li>
 												            <li><a href="#"><img src="../assets/img/placeimg_78_78_people.jpg" /></a></li>
+												            <li><a href="#"><img src="../assets/img/placeimg_78_78_people.jpg" /></a></li>
+												            <li><a href="#"><img src="../assets/img/placeimg_78_78_people.jpg" /></a></li> 
+												            <li><a href="#"><img src="../assets/img/placeimg_78_78_people.jpg" /></a></li>
+												            <li><a href="#"><img src="../assets/img/placeimg_78_78_people.jpg" /></a></li>
  
 												       </ul>
+												       
+												       <!--</ul>-->
 									       
 									           </section>
    
@@ -697,6 +710,18 @@
     <script src="../assets/js/bootstrap-carousel.js"></script>
     <script src="../assets/js/bootstrap-typeahead.js"></script>
      <script src="../assets/js/holder/holder.js"></script>
+     
+     <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
+     <script type="text/javascript" src="../assets/js/jquerypp.custom.js"></script>
+     <script type="text/javascript" src="../assets/js/jquery.elastislide.js"></script>
+     <script type="text/javascript">
+     	
+     	$( '#carousel' ).elastislide( {
+     		orientation : 'vertical',
+     		  minItems : 15
+     	} );
+     	
+     </script>
 
   </body>
 </html>
