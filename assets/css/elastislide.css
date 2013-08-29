@@ -17,7 +17,6 @@
 	position: relative;
 	margin: 0 auto;
 	min-height: 10px;
-	
 }
 
 .elastislide-wrapper.elastislide-loading {
@@ -51,6 +50,7 @@
 	-ms-transform: translateX(0px);
 	-o-transform: translateX(0px);
 	transform: translateX(0px);
+	height: 90px;
 }
 
 .elastislide-horizontal ul {
