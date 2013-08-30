@@ -123,6 +123,61 @@ div.span9.well.search {
 	padding-top: 8px;
 }
 
+.gallertDetail {
+	margin: 0;
+}
+
+span.Detailbody {
+	padding-left: 39px;
+}
+
+.Headline {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.iconGift {
+	padding-top: 13px;
+}
+
+.giftboxEdit {
+	background-color: #b9b1d2;
+	padding-bottom: 20px;
+}
+
+.picgift{
+	margin-bottom: 5px;
+}
+
+.editprofile {
+	margin-left: 12px;
+	margin-bottom: 15px;
+}
+
+.pointDetail {
+	margin-top: 20px;
+	background-color: #48377e;
+	color: #fffffe;
+}
+
+li.piontbox {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #f2ad2d;
+	margin: 10px;
+}
+
+.picGallery {
+	padding-left: 33px;
+	margin: 0;
+}
+.detail{
+	padding-top: 12px;
+	padding-right: 24px;
+	padding-bottom: 13px;
+	margin: 0;
+}
+
 div.span9.well.search form{
 	padding-left: 5px;
 }
