@@ -117,6 +117,15 @@ body > .navbar .brand {
 }
 
 /* @group ton css */
+div.span9.well.search {
+	margin: 0 0 14px;
+	background-color: #b6acd5;
+	padding-top: 8px;
+}
+
+div.span9.well.search form{
+	padding-left: 5px;
+}
 
 .mainpages {
 
