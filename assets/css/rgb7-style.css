@@ -978,6 +978,34 @@ width: 100%;
 	color: #f3ae27
 }
 /* @end */
+
+/* @group Search Group */
+.pic-bottom{
+	margin-bottom: 20px;
+}
+/* @end */
+
+
+/* @group Search Group */
+
+
+.viewprofile-content{
+	
+}
+
+.viewprofile-content h1{
+	color: white;
+}
+
+.viewprofile-content img {
+   margin-bottom: 25px;
+}
+
+
+
+
+/* @end */
+
 /* @group Chat Box Group */
 
 .chat-box h4{
