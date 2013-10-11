@@ -5,7 +5,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="RGB7">
     <link rel="shortcut icon" href="../assets/ico/favicon.png">
@@ -14,7 +14,6 @@
 
     <!-- Bootstrap core CSS -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <!-- <link href="../assets/css/non-responsive.css" rel="stylesheet">-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,8 +35,9 @@
      <link href="../assets/css/rgb7-style.css" rel="stylesheet">
     
   </head>
+  
 <!-- NAVBAR================================================== -->
-  <body class="bgBodyZone">
+ <body class="bgBodyZone">
   
   <!-- Header================================================== -->
   
@@ -126,14 +126,14 @@
 
             <!--=========Content====================-->
  	   
-		 			 <div class="col-md-1 left-top-free">
+		 			 <div class="col-md-1 left-top-free hidden-sm hidden-xs">
 		 			 
 		 			     <div class="row ">
 		 			       
-		 			       <div class="text-center"><a href="#"><img src="../assets/img/icon-nav-sub_0004_plus.png" alt=""  class="img-responsive"></a></div>
+		 			       <div class="text-center"><a href="#"><img src="../assets/img/icon-nav-sub_0004_plus.png" alt=""  class="img-responsive"></a>
+		 			       </div>
 		 			       
-		 			       <br>
-		 			   
+		 			             <br>
 				                                       <ul class="top-free-vote ">
 				                                          
 				                                            <li >
@@ -366,12 +366,14 @@
 				          <nav>
 				              
 				            <div class="pull-left">
+				            
 				              <ul class="nav nav-pills">
 				              
-				                 <li><img src="../assets/img/icon-nav-sub_0001_home.png" alt="home" ></li>
-				                 <li><img src="../assets/img/icon-nav-sub_0000_search.png" alt="search"></li>
-				                 <li><img src="../assets/img/icon-nav-sub_0002_gallery.png" alt="gallery"></li>
-				                 <li><img src="../assets/img/icon-nav-sub_0003_video.png" alt="videos"></li>
+				                 <li><a href="#"><img src="../assets/img/icon-nav-sub_0001_home.png" alt="home" ></a></li>
+				                 <li><a href="#"><img src="../assets/img/icon-nav-sub_0000_search.png" alt="search"></a></li>
+				                 <li><a href="#"><img src="../assets/img/icon-nav-sub_0002_gallery.png" alt="gallery"></a></li>
+				                 <li><a href="#"><img src="../assets/img/icon-nav-sub_0003_video.png" alt="videos"></a></li>
+				                 <li><a href="#"> <img src="../assets/img/bt-top-help.png" alt="help"></a></li>
 				                 
 				             </ul>
 				             </div>
@@ -379,7 +381,7 @@
 				             <div class="pull-right ">
 				             
 				             
-				                     <img src="../assets/img/bt-top-help.png" alt="help">
+				                    
 						             <button type="button" class="btn btn-lg btn-primary "><span class="glyphicon glyphicon-pencil text-color-white"></span>&nbsp;Post</button>
 						             
 						          	</div>		
@@ -712,40 +714,36 @@
       
   </div><!--end  main contineir-->
 
-
-
-
-<!--=======Position Fix======-->
-
-
    <!-- ===============FOOTER ======================-->
 
    <div class="bgFooterZone ">
     
-   <footer>
-     <br>
-      <div class="container ">
+			 <footer>
+			 
+			     <br>
+			      <div class="container ">
+						
+						 	<div class="row">
+						 		     
+						 		          <br class="clearfix">
+						 		          <p class="pull-right"><a href="#">Back to top</a></p>
+						 		         <p class="copyright">&copy; 2013 Soidav All rights reserved. </p>
+						 		        
+						        </div><!-- /.row -->
+						
+						 </div><!-- /.container -->
+						 
+			     </footer>
+			     
+      </div><!--end bgfooterZone-->
 
- 		     <div class="row">
- 		     
- 		          <br class="clearfix">
- 		          <p class="pull-right"><a href="#">Back to top</a></p>
- 		         <p class="copyright">&copy; 2013 Soidav All rights reserved. </p>
- 		        
-     </div><!-- /.container -->
-     
 
-    </div><!-- /.container -->
-     </footer>
-     
-     </div><!--end bgfooterZone-->
-<div class="element-style2">
+<!--=======Position Fix======-->     
 
+<div class="element-style2 hidden-sm hidden-xs">
 
-    <section id="top-pay-vote">
-  
-                                                     
-                                                                  
+    <div id="top-pay-vote">
+                           
                                 <ul class="top-dav-vote-style2">
                                    
                                      <li class="box-item clearfix" >
@@ -795,13 +793,13 @@
                                           <p>tristique </p>
                                        </a>
                                      </li>
-                                    
-                                     
 
                </ul>
                
-             </section>
-</div>
+          </div><!--    endtop vote -->
+       
+</div><!--end element background-->
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
