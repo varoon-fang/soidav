@@ -475,6 +475,16 @@ ul.nav li a:hover{
 
 /* @group Content Group */
 
+/* @group Login Group */
+.content-login-section label{
+	color: white;
+}
+.content-login-section a{
+	color: #f4f4f4;
+}
+
+/* @end */
+
 /* @group Bar Left top Free Vote Group */
 
 .top-free-vote {
