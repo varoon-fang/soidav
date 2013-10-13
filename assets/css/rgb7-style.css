@@ -1015,28 +1015,81 @@ width: 100%;
 /* @end */
 
 /* @group Search Group */
+
 .pic-bottom{
 	margin-bottom: 20px;
+	
 }
 /* @end */
 
 
-/* @group Search Group */
+/* @group Viewprofile Group */
 
 
-.viewprofile-content{
+#viewprofile-content{
 	
 }
 
-.viewprofile-content h1{
+#viewprofile-content h1{
 	color: white;
+	margin-bottom: 10px;
 }
 
-.viewprofile-content img {
-   margin-bottom: 25px;
+#viewprofile-content ul{
+	
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
 }
 
+#viewprofile-content ul li{
+	margin-bottom: 20px;
+}
 
+.Viewprofile-name{
+	color: #bbb3d4;
+	font-size: x-large;
+	text-align: right;
+}
+
+.viewprofile-profilezone{
+	text-align: left;
+}
+.table
+.viewprofile-toppic{
+	font-size: large;
+	color: #35285d;
+	text-align: right;
+	width: 36%;
+	opacity: 1;
+	border-top-color: #48377e;
+}
+
+div.viewprofile-box {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+span.glyphicon.glyphicon-ban-circle {
+	color: white;
+	font-size: large;
+}
+
+#viewprofile-content section.viewprofile-profilezone.well1 h2 {
+	color: #35285d;
+	font-size: x-large;
+}
+.table
+.viewprofile-body{
+	font-size: medium;
+	color: white;
+	border-top-color: #48377e;
+	padding-left: 10%;
+}
+
+.pic-viewprofile{
+	height: 260px;
+}
 
 
 /* @end */
