@@ -1020,6 +1020,18 @@ width: 100%;
 	margin-bottom: 20px;
 	
 }
+
+.boxicon-search{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.boxicon-search h3{
+	color: white;
+	margin-top: 5px;
+}
+
+
 /* @end */
 
 
