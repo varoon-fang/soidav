@@ -479,6 +479,10 @@ ul.nav li a:hover{
 .content-login-section label{
 	color: white;
 }
+
+.content-login-section p{
+	color: #f4f4f4;
+}
 .content-login-section a{
 	color: #f4f4f4;
 }
