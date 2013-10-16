@@ -1024,8 +1024,49 @@ width: 100%;
 }
 /* @end */
 
+/* @group mygallery Group */
+
+#mygallery{
+	margin: 0;
+	padding: 0;
+}
+
+#mygallery ul{
+	
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	
+	
+}
+
+div.mygallery-box {
+	margin-top: 7px;
+	color: white;
+	font-size: large;
+	margin-bottom: 10px;
+}
+
+#mygallery h1{
+	color: white;
+}
+
+/* @end */
+
 /* @group Search Group */
 
+#search-contact{
+	margin: 0;
+	padding: 0;
+}
+
+#search-contact ul{
+	
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	
+}
 .pic-bottom{
 	margin-bottom: 20px;
 	
