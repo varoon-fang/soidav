@@ -38,12 +38,10 @@
   
 <!-- NAVBAR================================================== -->
  <body class="bgBodyZone">
- 
-<div class="main-content container">
 
 <!--  =================Main Content==================== -->
 
- <div class="container  ">
+<div class="container  ">
 
  <div class="row">
  
@@ -57,15 +55,12 @@
 		 			      </div> 
 		 			      
 		 			      <br>
-		 			     <!--  =====form log-in=====-->
+		 			     <!--  =====form  Signup=====-->
   
-		 			     <div class="col-md-6 col-md-offset-3 row "> 
+		 			     <div class="col-md-6 col-md-offset-3 row main-content "> 
 		 			     
-		 			     <form class="form-horizontal" role="form">
-		 			     
- 			     
- 			     	 			       <div class="form-group">
- 			     	 			       
+		 			        <form class="form-horizontal" role="form">
+	     	 			       
  			     	 			         <!-- Gender -->
  			     	 			          <div class="col-md-12">
  			     	 			        
@@ -78,12 +73,8 @@
 		 			     	 			          </div>
  			     	 			          
  			     	 			         </div>
- 			     	 			           
- 			     	 			          
- 			     	 			          
-		          	 			       <div class="form-group">
-		          	 			       
-		          	 			         <!-- Gender -->
+      	 			       
+		          	 			          <!-- Birthdate -->
 		          	 			          <div class="col-md-12 ">
 		          	 			        
 		          	     	 			        <div class="form-group">
@@ -113,178 +104,90 @@
 		          	     	 			             <option value="1994">1994</option>
 		          	     	 			             <option value="1993">1993</option>
 		          	     	 			            </select>
-		          	     	 			          </div>
-		          	     	 			          
-		          	 			          
-		          	 			         </div>
-		          	 			         
+		          	 			               </div>
+		          	 			           </div><!--end formgroup-->
 		          	 			         </div><!--end col-12-->
- 			     	 			          
- 			     	 			         <div class="col-md-12">
+		          	 			         
+		          	 			         
+		          	 			        <!-- ==email====-->
+ 			     	 			       <div class="form-group">  
+ 			     	 			          <div class="col-md-8 col-md-offset-4"> 			     	 			          
  			     	 			           <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
  			     	 			         </div>
  			     	 			         
  			     	 			       </div>
+ 			     	 			       
+ 			     	 			    <!--  ====password====-->
  			     	 			       <div class="form-group">
- 			     	 			         <div class="col-md-12">
+ 			     	 			          <div class="col-md-8 col-md-offset-4">
  			     	 			           <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
  			     	 			         </div>
  			     	 			       </div>
- 			     	 			       
- 			     	 			     
- 			     	 			       
  			     	 			       <div class="form-group">
- 			     	 			         <div class="col-lg-offset-2 col-lg-10">
+ 			     	 			         <div class="col-md-8 col-md-offset-4">
+ 			     	 			           <input type="text" class="form-control" id="inputname" placeholder="Name">
+ 			     	 			         </div>
+ 			     	 			       </div>
+ 			     	 			     
+ 			     	 			     
+ 			     	 			     <!-- I looking for a -->
+ 			     	 			       <div class="col-md-12">
+ 			     	 			     
+ 			     	 			             <div class="form-group">
+ 			     	 			                 <label for="" class="col-md-4 control-label">I looking for a</label>
+ 			     	 			                 <div class="col-md-8">
+ 			     	 			                   <label class="checkbox-inline"><input type="checkbox" name="gender" value="2" checked="checked" />Man</label>
+ 			     	 			                   <label class="checkbox-inline"><input type="checkbox" name="gender" value="1" />Woman</label>
+ 			     	 			                 </div>
+ 			     	 			               </div>
+ 			     	 			       
+ 			     	 			      </div>
+ 			     	 			      
+ 			     	 			      
+ 			     	 			      <!-- Age between -->
+ 			     	 			        <div class="col-md-12 ">
+ 			     	 			      
+ 			     	 			      	        <div class="form-group">
+ 			     	 			      	            <label for="" class="col-md-4 control-label">Age between</label>
+ 			     	 			      	            
+ 			     	 			      	         <div class="col-md-2">
+ 			     	 			      	            <select  name="preferred_age[]" class="form-control ">
+ 			     	 			      	             <option value="18">18</option>
+ 			     	 			      	             <option value="19">19</option>
+ 			     	 			      	            </select>
+ 			     	 			      	          </div>
+ 			     	 			      	          
+ 			     	 			      	          <div class="col-md-2">
+ 			     	 			      	            <select name="preferred_age[]" class="form-control ">
+ 			     	 			      	              <option value="18">18</option>
+ 			     	 			      	              <option value="19">19</option>
+ 			     	 			      	            </select>
+ 			     	 			      	          </div>
+ 			     	 			      	          
+ 			     	 			      	     </div>
+ 			     	 			       
+ 			     	 			       </div><!--end col-12-->
+ 			     	 			       
+ 			     	 			      <br>
+ 			     	 			       <div class="form-group ">
+ 			     	 			          <div class="col-md-8 col-md-offset-4">
  			     	 			           <button type="submit" class="btn btn-primary btn-block">Sign-up</button>
  			     	 			         </div>
  			     	 			       </div>
+ 			     	 			       
  			     	 			     </form>
-		 			     
-				 			    
-				 			            <input type="hidden" name="country" value="TH">
-				 			            <input type="hidden" name="city" value="1609348">
-				 			    
-				 			            <!-- Birthdate -->
-				 			            <div class="control-group">
-				 			              <label class="control-label" for="age">Birthdate</label>
-				 			              <div class="controls">
-				 			                <select name="dob[Day]" class="span2">
-								 			    <option value="1">01</option>
-								 			    <option value="2">02</option>
-								 			    <option value="3">03</option>
-								 			    <option value="4">04</option>
-								 			    <option value="5">05</option>
-								 			    <option value="6">06</option>
-								 			    <option value="7">07</option>
-								 			    <option value="8">08</option>
-								 			    <option value="9">09</option>
-								 			    <option value="10">10</option>
-								 			    <option value="11">11</option>
-								 			    <option value="12">12</option>
-								 			    <option value="13">13</option>
-								 			    <option value="14" selected="selected">14</option>
-								 			    <option value="15">15</option>
-								 			    <option value="16">16</option>
-								 			    <option value="17">17</option>
-								 			    <option value="18">18</option>
-								 			    <option value="19">19</option>
-								 			    <option value="20">20</option>
-								 			    <option value="21">21</option>
-								 			    <option value="22">22</option>
-								 			    <option value="23">23</option>
-								 			    <option value="24">24</option>
-								 			    <option value="25">25</option>
-								 			    <option value="26">26</option>
-								 			    <option value="27">27</option>
-								 			    <option value="28">28</option>
-								 			    <option value="29">29</option>
-								 			    <option value="30">30</option>
-								 			    <option value="31">31</option>
-								 			    </select>
-								 			    <select name="dob[Month]" class="span2">
-								 			    <option value="01">January</option>
-								 			    <option value="02">February</option>
-								 			    <option value="03">March</option>
-								 			    <option value="04">April</option>
-								 			    <option value="05">May</option>
-								 			    <option value="06">June</option>
-								 			    <option value="07">July</option>
-								 			    <option value="08">August</option>
-								 			    <option value="09">September</option>
-								 			    <option value="10" selected="selected">October</option>
-								 			    <option value="11">November</option>
-								 			    <option value="12">December</option>
-								 			    </select>
-								 			    <select name="dob[Year]" class="span2">
-								 			    <option value="1995">1995</option>
-								 			    <option value="1994">1994</option>
-								 			    <option value="1993">1993</option>
-								 			    <option value="1992">1992</option>
-								 			    <option value="1991">1991</option>
-								 			    <option value="1990">1990</option>
-								 			    <option value="1989">1989</option>
-								 			    <option value="1988">1988</option>
-								 			    <option value="1987">1987</option>
-								 			    <option value="1986">1986</option>
-								 			    <option value="1985">1985</option>
-								 			  
-				 			    </select>
-				 			              </div>
-				 			            </div> <!-- /.Birthdate -->
-				 			    
-				 			            <!-- Email -->
-				 			            <div class="control-group">
-				 			              <label class="control-label" for="email">Email</label>
-				 			              <div class="controls">
-				 			                <input type="text" id="email" name="email">
-				 			              </div>
-				 			            </div> <!-- /.Email -->
-				 			    
-				 			            <!-- Password -->
-				 			            <div class="control-group">
-				 			              <label class="control-label" for="password">Password</label>
-				 			              <div class="controls">
-				 			                <input type="password" id="password" name="password">
-				 			              </div>
-				 			            </div> <!-- /.Password -->
-				 			    
-				 			            <!-- Name -->
-				 			            <div class="control-group">
-				 			              <label class="control-label" for="name">Name</label>
-				 			              <div class="controls">
-				 			                <input type="text" id="name" name="name">
-				 			              </div>
-				 			            </div> <!-- /.Name -->
-				 			    
-				 			            <!-- Looking -->
-				 			            <div class="control-group">
-				 			              <label class="control-label" for="seeking">I looking for a</label>
-				 			              <div class="controls">
-				 			                <label class="checkbox inline"><input type="checkbox" name="seeking[]" value="2" />Man</label>
-				 			    <label class="checkbox inline"><input type="checkbox" name="seeking[]" value="1" checked="checked" />Woman</label>
-				 			              </div>
-				 			            </div> <!-- /.Looking -->
-				 			    
-				 			            <!-- Age between -->
-				 			            <div class="control-group">
-				 			              <label class="control-label" for="preferred_age">Age between</label>
-				 			              <div class="controls">
-				 			                <select name="preferred_age[]" class="span1">
-				 			                                <option value="18">18</option>
-				 			                                <option value="19">19</option>
-				 			                                				 			                              </select>
-				 			                and
-				 			                <select name="preferred_age[]" id="max_age" class="span1">
-				 			                                <option value="18">18</option>
-				 			                                <option value="19">19</option>
-				 			                               				 			                                <option value="80">80</option>
-				 			                              </select>
-				 			              </div>
-				 			            </div> <!-- /.Age between -->
-				 			    
-				 			            <div class="form-actions">
-				 			              <button type="submit" class="btn btn-primary">Sign up</button>
-				 			              <a href="http://soidav.gopagoda.com/signin" class="btn-link">Sign in</a>
-				 			            </div>
-				 			    
-				 			        </form>
-		 			     
-		 			      <br class="clearfix"><br><br>	
-		 			      </div> 
-		 		 </div><!--end content-->
-				     
-							 	  
+
+		 			      </div><!-- end col 6-->
+		 			      
+		 		 </div><!--end login-section content-->
+			 	  
 			  </div><!-- end row-->
 		    <!--=========end Content====================-->
-		    
-           </div><!--end content-sub-secction-->
-      
-      </div><!-- end row-->
-      
+
   </div><!--end  main contineir-->
 
    <!-- ===============FOOTER ======================-->
-
+<br><br><br>
    <div class="bgFooterZone ">
     
 			 <footer>
@@ -307,8 +210,6 @@
       </div><!--end bgfooterZone-->
 
 
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -317,3 +218,4 @@
      
   </body>
 </html>
+
