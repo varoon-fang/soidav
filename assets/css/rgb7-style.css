@@ -1044,6 +1044,15 @@ width: 100%;
 	
 }
 
+.iconton{
+	color: white;
+}
+
+a.btn.btn-xs.btn-default.de.iconton:hover {
+	color: black;
+	background-color: orange;
+}
+
 div.mygallery-box {
 	margin-top: 7px;
 	color: white;
@@ -1078,7 +1087,7 @@ div.mygallery-box {
 
 .boxicon-search{
 	margin-top: 0;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .boxicon-search h3{
@@ -1125,12 +1134,14 @@ div.mygallery-box {
 .table
 .viewprofile-toppic{
 	font-size: large;
-	color: #35285d;
+	color: #e4e3e3;
 	text-align: right;
 	width: 36%;
 	opacity: 1;
-	border-top-color: #48377e;
+	border-top-color: #9a9494;
 }
+
+
 
 div.viewprofile-box {
 	margin-top: 10px;
@@ -1143,15 +1154,16 @@ span.glyphicon.glyphicon-ban-circle {
 }
 
 #viewprofile-content section.viewprofile-profilezone.well1 h2 {
-	color: #35285d;
+	color: #d4b5f5;
 	font-size: x-large;
 }
 .table
 .viewprofile-body{
 	font-size: medium;
 	color: white;
-	border-top-color: #48377e;
+	border-top-color: ;
 	padding-left: 10%;
+	border-color: #9a9494;
 }
 
 .pic-viewprofile{
