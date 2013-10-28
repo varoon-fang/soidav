@@ -1088,6 +1088,7 @@ div.mygallery-box {
 .boxicon-search{
 	margin-top: 0;
 	margin-bottom: 30px;
+	text-align: center;
 }
 
 .boxicon-search h3{
@@ -1490,3 +1491,6 @@ margin-left: 15px;
   
   
   /* @end */
+  
+  
+  
