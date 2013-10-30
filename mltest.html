@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->  <!--<![endif]-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="RGB7">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+
+    <title>Soidav | </title>
+    
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    
+ <style type="text/css">
+    
+    
+    body {
+  padding-top: 50px;
+}
+ 
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}    
+
+</style>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">window.alert = function(){}</script>
+</head>
+<body>
+	
+<div class="container">
+  
+    <div class="row">
+        <div class="col-md-3">            
+            <div class="thumbnail">
+                <div class="caption">
+                    <h4>Thumbnail Headline</h4>
+                    <p>short thumbnail description</p>
+                    <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
+                    <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a></p>
+                </div>
+                <img src="http://lorempixel.com/400/300/sports/1/" alt="...">
+            </div>
+      </div>
+    </div>  
+    
+	<div class="row">
+        <div class="col-md-3">            
+            <div class="thumbnail">
+                <div class="caption">
+                    <h4>Thumbnail Headline</h4>
+                    <p>short thumbnail description</p>
+                    <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
+                    <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a></p>
+                </div>
+                <img src="http://lorempixel.com/400/300/sports/2/" alt="...">
+            </div>
+      </div>
+	</div>
+	
+	<div class="row">
+        <div class="col-md-3">            
+            <div class="thumbnail">
+                <div class="caption">
+                    <h4>Thumbnail Headline</h4>
+                    <p>short thumbnail description</p>
+                    <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
+                    <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a></p>
+                </div>
+                <img src="http://lorempixel.com/400/300/sports/3/" alt="...">
+            </div>
+      </div>
+	</div>
+	
+	<div class="row">
+        <div class="col-md-3">            
+            <div class="thumbnail">
+                <div class="caption" >
+                    <h4>Thumbnail Headline</h4>
+                    <p>short thumbnail description</p>
+                    <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
+                    <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a></p>
+                </div>
+                <img src="http://lorempixel.com/400/300/sports/4/" alt="...">
+            </div>
+      </div>        
+  </div>
+  
+</div><!-- /.container -->	
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+    $("[rel='tooltip']").tooltip();    
+ 
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').slideDown(250); //.fadeIn(250)
+        },
+        function(){
+            $(this).find('.caption').slideUp(250); //.fadeOut(205)
+        }
+    ); 
+});	
+</script>
+
+</body>
+</html>
